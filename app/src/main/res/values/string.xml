@@ -1,3 +1,4 @@
 <resources>
     <string name="xposed_init">作用域必须包含全部作用域，且系统框架生效需重启手机！！\n将模块分享到 酷安/官方Q群/小米社区 等平台，所带来的后果请自行承担\n\n本模块非原作者分支，仅对原分支进行小修小补，随时停更</string>
+    <string name="app_name">米柚个性化</string>
 </resources>

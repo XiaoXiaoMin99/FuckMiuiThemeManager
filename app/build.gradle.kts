@@ -15,10 +15,10 @@ android {
     namespace = "com.yuk.fuckMiuiThemeManager"
     defaultConfig {
         applicationId = namespace
-        minSdk = 29
+        minSdk = 28
         targetSdk = 34
         versionCode = 18
-        versionName = "1.8.0-for 0.07"
+        versionName = "1.8.1"
         ndk.abiFilters += "arm64-v8a"
         ndk.abiFilters += "armeabi-v7a"
     }
@@ -45,7 +45,7 @@ android {
         applicationVariants.all {
             outputs.all {
                 (this as BaseVariantOutputImpl).outputFileName =
-                    "FuckMiuiThemeManager For Qiqi-$versionName.apk"
+                    "Unlock-MIUIThemeManager For Qiqi-$versionName.apk"
             }
         }
     }
@@ -53,6 +53,6 @@ android {
 
 dependencies {
     compileOnly("de.robv.android.xposed:api:82")
-    implementation("com.github.kyuubiran:EzXHelper:2.0.6")
+    implementation("com.github.kyuubiran:EzXHelper:2.0.7")
     implementation("org.luckypray:DexKit:1.1.8")
 }

@@ -218,8 +218,6 @@ class XposedInit : IXposedHookLoadPackage {
                     Log.ex(t)
                 }
             }
-
-            else -> { return }
         }
     }
 

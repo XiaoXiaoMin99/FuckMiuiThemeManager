@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:label="Miui 主题破解"
+        android:label="@string/app_name"
         android:supportsRtl="false"
         tools:ignore="MissingApplicationIcon">
         <meta-data
@@ -16,6 +16,6 @@
 
         <meta-data
             android:name="xposedminversion"
-            android:value="82" />
+            android:value="93" />
     </application>
 </manifest>
